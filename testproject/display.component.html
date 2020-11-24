@@ -1,0 +1,14 @@
+
+<table class="table table-striped">
+    <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Age</th>
+</tr>
+<tr  *ngFor="let i of lst">
+    <td>{{i.name | json}}</td>
+    <td>{{i.email  | json}}</td>
+    <td>{{i.age  | json}}</td>
+    
+</tr>
+</table>
